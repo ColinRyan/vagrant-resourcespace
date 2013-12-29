@@ -13,6 +13,7 @@ cd resourcespace
 sudo mkdir filestore
 sudo chmod 777 filestore 
 sudo chmod -R 777 include
+sudo chown -R www-data:www-data .
 
 echo "create database resourcespace" | mysql -u root
 
